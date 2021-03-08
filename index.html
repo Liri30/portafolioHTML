@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <meta name="viewport" content="initial-scale=1.0">
+        <title>Portafolio</title>
+
+        <style>
+
+            * {
+                box-sizing: border-box;
+              }
+
+            aside {
+              width: 30%;
+              height:80%;
+              padding-left: 15px;
+              margin-left: 15px;
+              float: left;
+              font-style: italic;
+              background-color: lightgray;
+            }
+
+            /* Style the buttons */
+.btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #ddd;
+  }
+  
+  .btn.active {
+    background-color: #666;
+    color: white;
+  }
+  </style>
+            </style>
+    </head>
+    <body>
+        <div id="myBtnContainer">
+            <button class="btn active" onclick="filterSelection('all')"> Certifications </button>
+            <button class="btn" onclick="filterSelection('nature')"> Experience</button>
+            <button class="btn" onclick="filterSelection('cars')"> Contact</button>
+            <button class="btn" onclick="filterSelection('people')"> More</button>
+          </div>
+        <aside>
+            <img src="" alt="my profile pic">
+            <h1 id="my_name">Manuel Liriano</h1>
+            <h2 id="career_title">Telematical Engineer</h1>
+                <p>Here I will write about my professionals skills, studies and experience
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum iure error laudantium commodi eveniet animi expedita assumenda ut debitis laborum facilis, soluta sapiente perspiciatis illo amet tempora. Inventore, aliquam ipsam.
+                </p>
+        </aside>
+        <h1>projects</h1>
+        <h2>Project 1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet veniam saepe commodi excepturi, eum deserunt minima laudantium amet voluptatum sunt, optio ratione ipsum, reprehenderit ullam. Eos fugiat reprehenderit aperiam ab.</p>
+   
+        <h2>project 2</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis aut architecto nemo aliquam culpa? Enim cupiditate temporibus voluptatum quod. Dolore soluta quas velit eum repellendus dignissimos amet libero, quod doloremque.</p>
+    </body>
+    <footer>
+        <h3>Other information will be here</h3>
+    </footer>
+</html>
